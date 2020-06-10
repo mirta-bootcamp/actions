@@ -15,5 +15,11 @@ class MyTest {
 	void testMult() {
 		assertEquals(10, MathUtils.multiply(5, 2));
 	}
+	
+	@Test
+	void testDiv() {
+		assertEquals(2, MathUtils.divide(10, 5));
+	}
+
 
 }
