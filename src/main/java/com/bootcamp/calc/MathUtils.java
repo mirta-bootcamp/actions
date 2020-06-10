@@ -29,7 +29,7 @@ public class MathUtils {
 	 * @return the result as integer
 	 */
 	public static int divide(int a, int b) {
-		return (int) a+b;
+		return (int) a/b;
 	}
 	
 	
